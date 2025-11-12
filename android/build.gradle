@@ -2,7 +2,7 @@ group 'com.nankai.flutter_nearby_connections'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.8.22'
+    ext.kotlin_version = '2.0.0'
     repositories {
         google()
         mavenCentral()
@@ -44,7 +44,7 @@ android {
         minSdkVersion 24
         targetSdkVersion 35
     }
-    lintOptions {
+    lint {
         disable 'InvalidPackage'
     }
 }
